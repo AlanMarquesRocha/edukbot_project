@@ -1,15 +1,20 @@
+
+# Bibliotecas necessárias para o projeto
 import numpy as np
+import random
+import ntlk
+import json
+import pickle
+
+# Importando as bibliotecas do keras:
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
-import random
 
-import nltk
+# Importando as bibliotecas do NLTK:
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
-import json
-import pickle
 
 words = []
 classes = []
